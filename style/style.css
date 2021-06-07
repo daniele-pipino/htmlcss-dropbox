@@ -198,11 +198,25 @@ body{
     margin-right: 20px;
 }
 /* partner section */
-
+.partner-section{
+    margin-bottom: 100px;
+}
 .partner-section .w-50 img{
     width: 100%;
 }
 
 .partner-section .w-50 .content{
     padding-left: 50px;
+}
+/* operation section */
+.row{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.row .w-30 img{
+    height: 200px;
+}
+
+.row .w-30.center{
+    margin: 0 30px;
 }
