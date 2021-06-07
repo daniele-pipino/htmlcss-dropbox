@@ -20,6 +20,11 @@ body{
     text-decoration: none;
     color: black;
 }
+
+.w-30{
+    width: 30%;
+}
+
 .w-40{
     width: 40%;
 }
@@ -56,9 +61,35 @@ body{
     background-color: blue;
     color: white;
 }
+
+.center-button{
+   padding: 5px 30px;
+    margin-bottom: 20px;
+}
 .big-container{
     max-width: 80%;
     margin: 0 auto;
+}
+
+.mid-container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.spacing{
+    padding: 10px 0;
+}
+
+.bottom-spacing{
+    margin-bottom: 30px;
+}
+
+.top-spacing{
+    margin-top: 30px;
+}
+
+.little-hr{
+    width: 30%;
 }
 /* header */
 .top-header{
@@ -77,7 +108,7 @@ body{
     color: white;
 }
 /* main */
-
+/* hero section */
 .hero-section{
     background-color: rgb(180 208 232);
     padding-top: 100px;
@@ -102,3 +133,40 @@ body{
     padding-top: 20px;
     width: 110%;
 }
+/* plan section */
+.plan-section{
+    margin-top: 300px;
+}
+
+.mid-container h2{
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+.mid-container .button{
+    margin-bottom: 50px;
+}
+.mid-container .button label{
+    padding-right: 30px;
+    margin: 20px 0;
+}
+/* colonne piani */
+.col-plan .w-30{
+    border: 1px solid grey; 
+}
+.col-plan .w-30.center{
+    margin: 0 45px;
+}
+.col-plan .w-30 .plan-utent{
+    border: 1px solid grey;
+    text-align: center;
+}
+
+.col-plan .w-30 .top-column,.bottom-column{
+    padding: 20px 20px;
+    /* border: 1px solid grey; */
+}
+
+.col-plan .w-30 .top-column .top-column-bottom{
+    padding-top: 30px;
+}
+
