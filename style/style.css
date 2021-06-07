@@ -20,9 +20,16 @@ body{
     text-decoration: none;
     color: black;
 }
+.w-40{
+    width: 40%;
+}
 
 .w-50{
     width: 50%;
+}
+
+.w-60{
+    width: 60%;
 }
 
 .text-right{
@@ -40,15 +47,23 @@ body{
 }
 
 .btn{
+    text-decoration: none;
     border-radius: 1px;
-    background-color: blue;
     padding: 5px 15px;
 }
 
+.btn-bluewhite{
+    background-color: blue;
+    color: white;
+}
+.big-container{
+    max-width: 80%;
+    margin: 0 auto;
+}
 /* header */
 .top-header{
-    height: 50px;
-    line-height: 50px;
+    height: 100px;
+    line-height: 100px;
 }
 .sx-col{
     padding-left: 15px;
@@ -58,6 +73,32 @@ body{
     vertical-align: middle;
 }
 
-.btn .btn-text{
+.dx-nav .btn.btn-bluewhite{
     color: white;
+}
+/* main */
+
+.hero-section{
+    background-color: rgb(180 208 232);
+    padding-top: 100px;
+}
+.big-container{
+    height: 80vh;
+}
+
+.big-container h1{
+    font-size: 4em;
+}
+
+.col-section{
+    margin-top: 30px;
+}
+
+.col-section .w-40 p{
+    margin: 20px 0;
+}
+
+.w-60 img{
+    padding-top: 20px;
+    width: 110%;
 }
