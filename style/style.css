@@ -1,0 +1,63 @@
+/* utilities */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif; 
+}
+.nav{
+    display: inline-block;
+}
+
+.nav ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.w-50{
+    width: 50%;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.float{
+    float: left;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.btn{
+    border-radius: 1px;
+    background-color: blue;
+    padding: 5px 15px;
+}
+
+/* header */
+.top-header{
+    height: 50px;
+    line-height: 50px;
+}
+.sx-col{
+    padding-left: 15px;
+}
+
+.sx-col img{
+    vertical-align: middle;
+}
+
+.btn .btn-text{
+    color: white;
+}
