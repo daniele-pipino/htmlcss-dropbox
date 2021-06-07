@@ -61,7 +61,11 @@ body{
     background-color: rgb(9 96 255);
     color: white;
 }
-
+.btn-white{
+   color: black;
+   border: 1px solid gray;
+   margin-top: 50px;
+}
 .center-button{
    padding: 5px 30px;
     margin-bottom: 20px;
@@ -181,6 +185,7 @@ body{
     padding: 5px 0;
 }
 .horizontal-column .info{
+    margin-bottom: 100px;
     padding: 20px 20px;
     position: relative;
     border: 1px solid grey;
@@ -191,4 +196,13 @@ body{
     right: 0%;
     margin-top: 35px;
     margin-right: 20px;
+}
+/* partner section */
+
+.partner-section .w-50 img{
+    width: 100%;
+}
+
+.partner-section .w-50 .content{
+    padding-left: 50px;
 }
