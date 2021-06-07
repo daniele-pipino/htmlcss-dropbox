@@ -58,7 +58,7 @@ body{
 }
 
 .btn-bluewhite{
-    background-color: blue;
+    background-color: rgb(9 96 255);
     color: white;
 }
 
@@ -150,6 +150,9 @@ body{
     margin: 20px 0;
 }
 /* colonne piani */
+.col-plan{
+    margin-bottom: 30px;
+}
 .col-plan .w-30{
     border: 1px solid grey; 
 }
@@ -159,6 +162,7 @@ body{
 .col-plan .w-30 .plan-utent{
     border: 1px solid grey;
     text-align: center;
+    padding: 5px 0;
 }
 
 .col-plan .w-30 .top-column,.bottom-column{
@@ -169,4 +173,22 @@ body{
 .col-plan .w-30 .top-column .top-column-bottom{
     padding-top: 30px;
 }
+/* horizontal column */
 
+.horizontal-column .utent{
+    text-align: center;
+    border: 1px solid grey;
+    padding: 5px 0;
+}
+.horizontal-column .info{
+    padding: 20px 20px;
+    position: relative;
+    border: 1px solid grey;
+}
+.horizontal-column .info a{
+    position: absolute;
+    top: 0;
+    right: 0%;
+    margin-top: 35px;
+    margin-right: 20px;
+}
