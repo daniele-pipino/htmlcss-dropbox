@@ -129,7 +129,7 @@ img{
 }
 /* check */
 .fa-check{
-    color: dodgerblue;
+    color:rgb(9 96 255);
 }
 /* ********color*********** */
 .green{
@@ -318,13 +318,13 @@ img{
 } 
 /* centerbox */
 
-.w-50 .content{
+.w-50 .box-content{
     background-color: whitesmoke;
     height: 300px;
     padding: 30px 30px;
 }
 
-.w-50 .content img{
+.w-50 .box-content img{
     width: 30%;
 }
 
