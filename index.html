@@ -15,8 +15,9 @@
     <header>
        <div class="top-header clearfix">
            <div class="sx-col w-50 float">
-               <img src="./img/logo-small.png" alt="Dropbox-logo">
+               <img id="logo" src="./img/logo-small.png" alt="Dropbox-logo">
 
+               <!-- left nav -->
                <nav class=" nav sx-nav">
                    <ul>
                        <li><a href="#">Perche Dropbox?</a></li>
@@ -25,7 +26,7 @@
                    </ul>
                </nav>
            </div>
-
+           <!-- right nav -->
            <div class="dx-col w-50 float text-right">
             <nav class=" nav dx-nav">
                 <ul>
@@ -33,7 +34,6 @@
                        <li><a href="#">Contatta l'ufficio vendite</a></li>
                        <li><a href="#">Accedi</a></li>
                        <li><a href="#" class="btn btn-bluewhite" >Inizia</a></li>
-                      
                 </ul>
             </nav>
            </div>
@@ -68,11 +68,11 @@
 
                 <div class="button">
                     <!-- button 1 -->
-                <input type="radio" name="Fatturazione annuale" id="">
+                <input type="radio" name="Fatturazione mensile">
                 <label for="Fatturazione mensile">Fatturazione mensile</label>
                 <!-- button 2 -->
-                <input type="radio" name="Fatturazione annuale" id="">
-                <label for="Fatturazione mensile">Fatturazione mensile</label>
+                <input type="radio" name="Fatturazione annuale">
+                <label for="Fatturazione annuale">Fatturazione annuale</label>
                 </div>
                 <!-- colonne diversi piani -->
                 <div class="col-plan clearfix">
@@ -85,7 +85,7 @@
                         <div class="top-column">
                             <div class="top-column-top">
                                 <h3 class="spacing">Professionals</h3>
-                                <h4 class="spacing">19,99$</h4>
+                                <h4 class="spacing">19,99 $</h4>
                                 <span>/mese</span>
                             </div>
                             <div class="top-column-bottom">
@@ -116,7 +116,7 @@
                         <div class="top-column">
                             <div class="top-column-top">
                                 <h3 class="spacing">Standard</h3>
-                                <h4 class="spacing">19,99$</h4>
+                                <h4 class="spacing">19,99 $</h4>
                                 <span>/mese</span>
                             </div>
                             <div class="top-column-bottom">
@@ -146,7 +146,7 @@
                         <div class="top-column">
                             <div class="top-column-top">
                                 <h3 class="spacing">Advanced</h3>
-                                <h4 class="spacing">19,99$</h4>
+                                <h4 class="spacing">19,99 $</h4>
                                 <span>/mese</span>
                             </div>
                             <div class="top-column-bottom">
@@ -246,7 +246,84 @@
                     </div>
                 </div>
             </div>
-           
+        </section>
+        <!-- team section -->
+        <section>
+            <div class="mid-container">
+                <h2>Più di 500.000 team<br> utilizzano Dropbox Business</h2>
+                <a href="#" class="spacing">Scopri di più sui nostri clienti</a>
+            </div>
+            <!-- Blocchi -->
+            <div class="container clearfix">
+                <!-- left column -->
+                <div class="w-25 float">
+                    <div class="row1 clearfix">
+                        <!-- box 1 -->
+                        <div class="box green float">
+                            <div class="box-content">
+                                <img src="./img/designit.svg" alt="">
+                            </div>
+                        </div>
+                        <!-- box 2 -->
+                        <div class="box darkred float">
+                            <div class="box-content">
+                                <img src="./img/arizona_state_university.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row2 clearfix">
+                        <div class="box bluesky float">
+                            <div class="box-content">
+                                <img src="./img/university_of_florida.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="box red float">
+                            <div class="box-content">
+                                <img src="./img/topps.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- center column -->
+                <div class="w-50 float">
+                    <div class="content">
+                        <img src="./img/designit.svg" alt="">
+                        <hr class="little-hr top-spacing">
+                        <p class="top-spacing">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum porro ad amet reiciendis nemo libero, dolor impedit rerum nobis. Atque ad, at ratione consequuntur porro fuga rerum illo saepe omnis!</p>
+                        <p class="top-spacing">Lorem Ipaum dolor </p>
+                    </div>
+                </div>
+                <!-- right column -->
+                <div class="w-25 float">
+                    <div class="row1 clearfix">
+                        
+                        <div class="box red float">
+                            <div class="box-content">
+                                <img class="spacing" src="./img/world_bicycle_relief.svg" alt="">
+                                
+                            </div>
+                        </div>
+
+                        <div class="box cian float">
+                            <div class="box-content">
+                                <img src="./img/hearst_corp.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row2 clearfix">
+                        <div class="box blue float">
+                            <div class="box-content">
+                                <img src="./img/lonely_planet.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="box yellow float">
+                            <div class="box-content">
+                                <img src="./img/clear_channel.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <!-- footer -->

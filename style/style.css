@@ -7,6 +7,11 @@
 body{
     font-family: 'Open Sans', sans-serif; 
 }
+
+img{
+    width: 100%;
+}
+/* navigator */
 .nav{
     display: inline-block;
 }
@@ -19,6 +24,10 @@ body{
 .nav ul li a{
     text-decoration: none;
     color: black;
+}
+/* Measures */
+.w-25{
+    width: 25%;
 }
 
 .w-30{
@@ -36,7 +45,7 @@ body{
 .w-60{
     width: 60%;
 }
-
+/* text utilities */
 .text-right{
     text-align: right;
 }
@@ -51,6 +60,8 @@ body{
     clear: both;
 }
 
+
+/* buttons */
 .btn{
     text-decoration: none;
     border-radius: 1px;
@@ -61,15 +72,18 @@ body{
     background-color: rgb(9 96 255);
     color: white;
 }
+
 .btn-white{
    color: black;
    border: 1px solid gray;
    margin-top: 50px;
 }
+
 .center-button{
    padding: 5px 30px;
     margin-bottom: 20px;
 }
+/* container */
 .big-container{
     max-width: 80%;
     margin: 0 auto;
@@ -79,6 +93,7 @@ body{
     width: 70%;
     margin: 0 auto;
 }
+/* spacing */
 
 .spacing{
     padding: 10px 0;
@@ -91,9 +106,41 @@ body{
 .top-spacing{
     margin-top: 30px;
 }
-
+/* hr */
 .little-hr{
     width: 30%;
+}
+/* check */
+.fa-check{
+    color: dodgerblue;
+}
+/* ********color*********** */
+.green{
+    background-color: green;
+}
+
+.darkred{
+    background-color: darkred;
+}
+
+.bluesky{
+    background-color: skyblue;
+}
+
+.red{
+    background-color: red;
+}
+
+.cian{
+    background-color: cornflowerblue;
+}
+
+.blue{
+    background-color: darkblue;
+}
+
+.yellow{
+    background-color: yellow;
 }
 /* header */
 .top-header{
@@ -104,8 +151,9 @@ body{
     padding-left: 15px;
 }
 
-.sx-col img{
+ #logo{
     vertical-align: middle;
+    width: 30%;
 }
 
 .dx-nav .btn.btn-bluewhite{
@@ -146,23 +194,29 @@ body{
     font-size: 2.5em;
     margin-bottom: 20px;
 }
+
 .mid-container .button{
     margin-bottom: 50px;
 }
+
 .mid-container .button label{
     padding-right: 30px;
     margin: 20px 0;
 }
+
 /* colonne piani */
 .col-plan{
     margin-bottom: 30px;
 }
+
 .col-plan .w-30{
     border: 1px solid grey; 
 }
+
 .col-plan .w-30.center{
     margin: 0 45px;
 }
+
 .col-plan .w-30 .plan-utent{
     border: 1px solid grey;
     text-align: center;
@@ -171,7 +225,6 @@ body{
 
 .col-plan .w-30 .top-column,.bottom-column{
     padding: 20px 20px;
-    /* border: 1px solid grey; */
 }
 
 .col-plan .w-30 .top-column .top-column-bottom{
@@ -209,6 +262,11 @@ body{
     padding-left: 50px;
 }
 /* operation section */
+
+.operations{
+    margin-bottom: 100px;
+}
+
 .row{
     margin-top: 50px;
     margin-bottom: 50px;
@@ -218,5 +276,36 @@ body{
 }
 
 .row .w-30.center{
-    margin: 0 30px;
+    margin: 0 40px;
+}
+/* team section */
+.container{
+    margin-top: 50px;
+}
+/* left and right box */
+.box{
+    width:50%;
+    height: 150px;
+    position: relative;
+}
+
+
+.box img{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+} 
+/* centerbox */
+
+.w-50 .content{
+    background-color: whitesmoke;
+    height: 300px;
+    padding: 30px 30px;
+}
+
+.w-50 .content img{
+    width: 30%;
 }
