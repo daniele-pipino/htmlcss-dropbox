@@ -4,6 +4,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Open Sans', sans-serif; 
 }
@@ -160,9 +165,6 @@ img{
     background-color: yellow;
 }
 /* header */
-header{
-    position: relative;
-}
 
 .top-header{
     height: 90px;
@@ -262,18 +264,18 @@ header{
 }
 /* horizontal column */
 
-.horizontal-column .utent{
+#horizontal-column .utent{
     text-align: center;
     border: 1px solid grey;
     padding: 5px 0;
 }
-.horizontal-column .info{
+#horizontal-column .info{
     margin-bottom: 100px;
     padding: 20px 20px;
     position: relative;
     border: 1px solid grey;
 }
-.horizontal-column .info a{
+#horizontal-column .info a{
     position: absolute;
     top: 0;
     right: 0%;
