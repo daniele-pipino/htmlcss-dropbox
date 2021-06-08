@@ -160,12 +160,25 @@ img{
     background-color: yellow;
 }
 /* header */
+header{
+    position: relative;
+}
+
 .top-header{
-    height: 100px;
-    line-height: 100px;
+    height: 90px;
+    width: 100%;
+    line-height: 90px;
+    background-color: white;
+    position: fixed;
 }
 .sx-col{
     padding-left: 15px;
+    position: fixed;
+    left: 0;
+}
+.dx-col{
+    position: fixed;
+    right: 0;
 }
 
  #logo{
