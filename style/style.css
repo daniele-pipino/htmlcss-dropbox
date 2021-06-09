@@ -171,7 +171,7 @@ a{
 }
 
 .yellow{
-    background-color: yellow;
+    background-color: #e6e606;
 }
 /* header */
 
@@ -269,7 +269,7 @@ a{
     margin-top: 300px;
 }
 
-.mid-container h2{
+#plan-section .mid-container h2{
     font-size: 2.5em;
     margin-bottom: 20px;
 }
@@ -310,11 +310,6 @@ a{
     padding-top: 30px;
 }
 
-.col-plan .w-30 .bottom-column p{
-    text-indent: -1;
-}
-
-
 /* horizontal column */
 
 #horizontal-column .utent{
@@ -339,6 +334,7 @@ a{
 #partner-section{
     margin-bottom: 100px;
 }
+
 #partner-section .w-50 img{
     width: 100%;
 }
@@ -352,7 +348,7 @@ a{
     margin-bottom: 100px;
 }
 
-.row{
+.mid-container .row{
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -376,8 +372,8 @@ a{
     height: 150px;
     position: relative;
 }
-.w-25 .box:hover .box-content{
-   padding: 10px;
+.box:hover{
+   border:10px solid #f3e5e538;
 }
 
 .box img{
@@ -474,3 +470,4 @@ a{
 .fas.fa-sort-up{
     padding-top: 2px;
 }
+/* end */
