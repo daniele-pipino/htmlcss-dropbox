@@ -16,7 +16,9 @@ body{
 img{
     width: 100%;
 }
-
+a{
+    text-decoration: none;
+}
 .inline{
     display: inline-block;
 }
@@ -97,6 +99,9 @@ img{
 .center-button{
    padding: 5px 30px;
     margin-bottom: 20px;
+}
+.btn.btn-bluewhite:hover{
+    background-color: rgb(34 147 245);
 }
 
 /* container */
