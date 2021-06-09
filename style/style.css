@@ -139,12 +139,13 @@ a{
 
 .footer-hr{
     width: 13%;
+    margin-bottom: 20px;
 }
 /* check */
 .fa-check{
     color:rgb(9 96 255);
 }
-/* ********color*********** */
+/* ******** box color*********** */
 .green{
     background-color: green;
 }
@@ -183,25 +184,25 @@ a{
     z-index: 5;
 }
 
-#logo{
+.top-header #logo{
     vertical-align: middle;
     width: 25%;
 }
 
-.sx-col{
+.top-header .sx-col{
     padding-left: 15px;
     position: fixed;
     left: 0;
 }
 
-.sx-col .sx-nav a{
+.top-header .sx-col .sx-nav a{
      padding: 30px 0;
 }
 
-.sx-col .sx-nav a:hover{
+.top-header .sx-col .sx-nav a:hover{
     border-bottom: 2px solid black;
 }
-.dx-col{
+.top-header .dx-col{
     padding-right: 15px;
     position: fixed;
     right: 0;
@@ -224,11 +225,11 @@ a{
     background-color: rgb(180 208 232);
 }
 
-.big-container{
+#hero-section .big-container{
     height: 100vh;
 }
 
-.big-container h1{
+#hero-section .big-container h1{
     padding-top: 150px;
     font-size: 4em;
 }
@@ -242,7 +243,7 @@ a{
 }
 
 .col-section .w-40 .fas.fa-arrow-down.fa-2x{
-    animation: jumping 2s linear infinite;
+    animation: jumping 2s infinite;
 }
 
 @keyframes jumping {
@@ -259,7 +260,7 @@ a{
     }
 }
 
-.w-60 img{
+.col-section .w-60 img{
     padding-top: 20px;
     width: 110%;
 }
@@ -375,8 +376,8 @@ a{
     height: 150px;
     position: relative;
 }
-.box:hover{
-    border: black;
+.w-25 .box:hover .box-content{
+   padding: 10px;
 }
 
 .box img{
@@ -467,7 +468,9 @@ a{
     padding: 5px 0;
     font-size: 13px;
 }
-
+.w-20 a:hover{
+    text-decoration: underline;
+}
 .fas.fa-sort-up{
     padding-top: 2px;
 }
