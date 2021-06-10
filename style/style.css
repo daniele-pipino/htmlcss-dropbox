@@ -19,9 +19,11 @@ img{
 a{
     text-decoration: none;
 }
+
 .inline{
     display: inline-block;
 }
+
 /* navigator */
 .nav{
     display: inline-block;
@@ -243,7 +245,7 @@ a{
 }
 
 .col-section .w-40 .fas.fa-arrow-down.fa-2x{
-    animation: jumping 2s infinite;
+    animation: jumping 2s linear infinite;
 }
 
 @keyframes jumping {
@@ -411,6 +413,7 @@ a{
 
 #invite .mid-container h2{
     color: darkred;
+    font-size: 2em;
 }
 
 #invite .mid-container a{
